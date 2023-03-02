@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Poppins:wght@500&display=swap');
+
+* {
+    font-family: 'DM Sans';
+    color: #fff !important;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #1E0E62 !important;
+}
+
+.navbar {
+    padding: 50px 170px !important;
+}
+
+.navbar-brand, .hero-heading{
+    font-size: 24px !important;
+    font-weight: 700 ;
+}
+
+.nav-link, .up-btn {
+    font-size: 16px !important;
+    font-weight: 500;
+    
+}
+
+i {
+    font-size: 18px;
+}
+
+.hero-heading {
+    font-size: 42px !important;
+}
+
+.hero-para {
+    font-size: 22px;
+    font-weight: 500;
+    opacity: 70%;
+}
+
+.hero-button {
+    width: 190px;
+    height: 70px;
+    border-radius: 100px;
+    background: #25DAC5;
+    border: none;
+}
+
+p {
+    font-size: 16px !important;
+    padding-left: 21px;
+}
+
+  
+.hero-video {
+    max-width: 80%;
+    position: relative;
+    margin: 0 auto;
+    top: 15%;
+    transform: translateY(-10%);
+    padding-bottom: 20px;
+}
+
+video {
+    max-width: 100%;
+}
+  
+
+@media (max-width: 500px) {
+    .navbar {
+        padding: 50px 70px !important;
+    }
+
+   .hero-heading, .hero-para, p {
+    text-align: center;
+    padding-top: 30px;
+   } 
+
+   .hero-button {
+    margin-top: 25px;
+    margin-left: 25%;
+   }
+
+   p {
+    padding-top: 15px !important;
+   }
+
+   .hero-video {
+     max-width: 90%;
+   }
+
+   .hero-body {
+    margin-bottom: -40px;
+   }
+}
